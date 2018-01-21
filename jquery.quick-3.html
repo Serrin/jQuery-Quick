@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<title>jQuery quick plugin testpage - jQuery 3</title>
+
+<style>body { font-family: Helvetica, Arial, sans-serif; font-size: 15px; }</style>
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="jquery.quick.js"></script>
+
+<h1>jQuery quick plugin testpage - jQuery 3</h1>
+
+<div id="div1">div1</div>
+<div id="div2">div2</div>
+
+<p><button onclick='$("div").quickHide();'>hide</button></p>
+<pre>$("div").quickHide();</pre>
+
+<p><button onclick='$("div").quickShow();'>show default value</button></p>
+<pre>$("div").quickShow();</pre>
+
+<p><button onclick='$("div").quickShow("inline-block");'>show value</button></p>
+<pre>$("div").quickShow("inline-block");</pre>
