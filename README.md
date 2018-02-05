@@ -1,8 +1,8 @@
 # jQuery Quick plugin
 
-Quick jQuery hide() and show() alternatives.
+jQuery quick hide() and show() alternatives.
 
-Tested with jQuery v1.12.4, v3.2.1 and v3.3.1
+Tested with jQuery __v1.12.4__ and __v3.3.1__.
 
 # Functions
 
