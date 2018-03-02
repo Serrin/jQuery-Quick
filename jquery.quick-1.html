@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<title>jQuery quick plugin testpage - jQuery 1.12.4</title>
+
+<link rel="stylesheet" href="u87.css" type="text/css" />
+
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery.quick.min.js"></script>
+
+
+<h1 class="center">jQuery quick plugin testpage - jQuery 1.12.4</h1>
+
+
+<h2>Testcases</h2>
+
+<div id="div1">
+	<p>#div1 p1</p>
+	<p>#div1 p1</p>
+</div>	
+
+<p><button onclick='$("#div1 > p").quickHide().html("hidden");'>hide</button></p>
+<pre>$("#div1 > p").quickHide().html("hidden");</pre>
+
+<p><button onclick='$("#div1 > p").quickShow();'>show default value</button></p>
+<pre>$("#div1 > p").quickShow();</pre>
+
+<p><button onclick='$("#div1 > p").quickShow().html("shown block");'>show default value</button></p>
+<pre>$("#div1 > p").quickShow().html("shown block");</pre>
+
+<p><button onclick='$("#div1 > p").quickShow("inline-block").html("shown inline");'>show value</button></p>
+<pre>$("#div1 > p").quickShow("inline-block").html("shown inline");</pre>
+
+
+<h2 id="license">License</h2>
+
+<div>
+  <p><a href="https://opensource.org/licenses/MIT" target="_blank">https://opensource.org/licenses/MIT</a></p>
+
+  <h3>MIT License</h3>
+
+  <p><b>SPDX short identifier: MIT</b></p>
+
+  <p>Copyright (c) 2018 Ferenc Czigler</p>
+
+  <p>Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:</p>
+
+  <p>The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.</p>
+
+  <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.</p>
+</div>
+
+<hr/>
+
+<footer id="footer"><small>
+  <p>
+    <a href="#license">License</a>
+    &nbsp;//&nbsp;
+    <a href="http://github.com/Serrin" target="_blank">Github</a>
+  </p>
+  <p>&copy; Copyright 2017 Ferenc Czigler</p>
+</small></footer>
