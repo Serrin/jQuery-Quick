@@ -21,3 +21,4 @@ Example: `$(elem).quickShow("inline-block");`
 # License
 
 MIT
+
